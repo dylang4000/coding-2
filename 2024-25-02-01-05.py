@@ -2,8 +2,8 @@
 
 from turtle import *
 import tkinter
-s=Screen
-
+s=Screen()
+s.setup(1020,1000)
 size=numinput('Enter an odd number',"Enter an odd number")
 def square():
     pendown()
