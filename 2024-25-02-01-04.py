@@ -37,7 +37,7 @@ def square():
                 print(stat)
              elif stat==True:
                 stat=True
-                color(color1[0],color1[1],color1[2])
+                #color(color1[0],color1[1],color1[2])
                 begin_fill()
                 pendown()
                 forward(200)
@@ -58,7 +58,7 @@ def square():
 
              elif stat == False:
                 pendown()
-                color(color2)
+                #color(color2)
                 begin_fill()
                 forward(200)
                 right(90)
@@ -80,8 +80,8 @@ def square():
 def grid():
     global color1
     global color2
-    color1 = list(tkinter.colorchooser.askcolor)
-    color2 = list(tkinter.colorchooser.askcolor)
+    #color1 = list(tkinter.colorchooser.askcolor)
+    #color2 = list(tkinter.colorchooser.askcolor)
     print(color1)
     print(color2)
     penup()
