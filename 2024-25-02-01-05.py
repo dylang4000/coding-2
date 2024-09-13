@@ -20,7 +20,7 @@ def square():
 goto(-507,500)    
   
 print(window_height())
-square(size)
+square()
 
 
 mainloop()
