@@ -12,7 +12,7 @@ rowcount=0
 boxcount=0
 rowsCount=0
 columnCount=0
-
+keys=["1","2","3","4","5","6","7","8","9","r","o","y","g","b","i","v"]
 
 while size % 2 ==0:
     size=numinput('Enter an ODD number',"Enter an ODD number")
@@ -40,7 +40,7 @@ def grid():
     pendown()
     columnCount+=1
     forward(1020)
-    for i in range(size):
+    for i in range(int(size)):
         
         penup()
         goto(-510+((1020/size)*columnCount),500)
@@ -50,13 +50,13 @@ def grid():
 speed(0) 
 
 
-width()
+width(4)
 penup()
 grid()
 
 
 
 
-
 listen()
 mainloop()
+
