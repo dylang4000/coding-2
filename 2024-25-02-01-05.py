@@ -79,39 +79,137 @@ forward(25)
 def r():
     global input
     write('r',font=('Arial',17, "normal"))
-    forward(10)
+    forward(20)
     input.append('r')
+def o():
+    global input
+    write('o',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('o')
+def y():
+    global input
+    write('y',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('y')
+def g():
+    global input
+    write('g',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('g')
+def b():
+    global input
+    write('b',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('b')
+def i():
+    global input
+    write('i',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('i')
+def v():
+    global input
+    write('v',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('v')
+def one():
+    global input
+    write('1',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('1')
+def two():
+    global input
+    write('2',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('2')
+def three():
+    global input
+    write('3',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('3')
+def four():
+    global input
+    write('5',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('5')
+def five():
+    global input
+    write('5',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('5')
+def six():
+    global input
+    write('6',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('6')
+def seven():
+    global input
+    write('7',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('7')
+def eight():
+    global input
+    write('8',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('8')
+def nine():
+    global input
+    write('9',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('9')
+def zero():
+    global input
+    write('0',font=('Arial',17, "normal"))
+    forward(20)
+    input.append('0')
+def enter():
+    global input
+    goto(-510,534)
+    seth(0)
+    pendown()
+    begin_fill()
+    color('dimgray')
+    forward(1021)
+    right(90)
+    forward(30)
+    right(90)
+    forward(1021)
+    right(90)
+    forward(30)
+    end_fill()
+    penup()
+    penup()
+    backward(30)
+    right(90)
+    forward(10)
+    hideturtle()
+    color('white')
+    write('>>',font=('Arial',17, "normal"))
+    forward(25)
+    print(str(input))
+    input=[]
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+onkey(enter,'Return ')
 onkey(r,"r")
-onkey(r,"o")
-onkey(r,"y")
-onkey(r,"g")
-onkey(r,"b")
-onkey(r,"i")
-onkey(r,"v")
-onkey(r,"1")
-onkey(r,"2")
-onkey(r,"3")
-onkey(r,"4")
-onkey(r,"5")
-onkey(r,"6")
-onkey(r,"7")
-onkey(r,"8")
-onkey(r,"9")
-onkey(r,"0")
+onkey(o,"o")
+onkey(y,"y")
+onkey(g,"g")
+onkey(b,"b")
+onkey(i,"i")
+onkey(v,"v")
+onkey(one,"1")
+onkey(two,"2")
+onkey(three,"3")
+onkey(four,"4")
+onkey(five,"5")
+onkey(six,"6")
+onkey(seven,"7")
+onkey(eight,"8")
+onkey(nine,"9")
+onkey(zero,"0")
 
 listen()
 mainloop()
