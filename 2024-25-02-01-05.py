@@ -14,11 +14,12 @@ rowsCount=0
 columnCount=0
 input=[]
 keys=["1","2","3","4","5","6","7","8","9","r","o","y","g","b","i","v"]
-
+gotos=0
+#sets size to be asked again if not odd
 while size % 2 ==0:
     size=numinput('Enter an ODD number',"Enter an ODD number")
 
-
+#makes the grid
 def grid():
     global columnCount
     global rowsCount
@@ -50,8 +51,7 @@ def grid():
         columnCount+=1
 speed(0) 
 
-
-width(4)
+#this draws gridwidth(4)
 penup()
 grid()
 penup()
@@ -76,11 +76,15 @@ hideturtle()
 color('white')
 write('>>',font=('Arial',17, "normal"))
 forward(25)
+
+
+#definitions for all the key functions
 def r():
     global input
     write('r',font=('Arial',17, "normal"))
     forward(20)
     input.append('r')
+    undo()
 def o():
     global input
     write('o',font=('Arial',17, "normal"))
@@ -115,54 +119,57 @@ def one():
     global input
     write('1',font=('Arial',17, "normal"))
     forward(20)
-    input.append('1')
+    input.append(1)
 def two():
     global input
     write('2',font=('Arial',17, "normal"))
     forward(20)
-    input.append('2')
+    input.append(2)
 def three():
     global input
     write('3',font=('Arial',17, "normal"))
     forward(20)
-    input.append('3')
+    input.append(3)
 def four():
     global input
     write('5',font=('Arial',17, "normal"))
     forward(20)
-    input.append('5')
+    input.append(5)
 def five():
     global input
     write('5',font=('Arial',17, "normal"))
     forward(20)
-    input.append('5')
+    input.append(5)
 def six():
     global input
     write('6',font=('Arial',17, "normal"))
     forward(20)
-    input.append('6')
+    input.append(6)
 def seven():
     global input
     write('7',font=('Arial',17, "normal"))
     forward(20)
-    input.append('7')
+    input.append(7)
 def eight():
     global input
     write('8',font=('Arial',17, "normal"))
     forward(20)
-    input.append('8')
+    input.append(8)
 def nine():
     global input
     write('9',font=('Arial',17, "normal"))
     forward(20)
-    input.append('9')
+    input.append(9)
 def zero():
     global input
     write('0',font=('Arial',17, "normal"))
     forward(20)
-    input.append('0')
+    input.append(0)
+def delete():
+    undo()
 def enter():
     global input
+    global gotos
     goto(-510,534)
     seth(0)
     pendown()
@@ -185,13 +192,20 @@ def enter():
     color('white')
     write('>>',font=('Arial',17, "normal"))
     forward(25)
-    print(str(input))
-    input=[]
+    for int in input:
+        for i in range(int):
+            gotos+=1
+    
+    print(gotos)
+
+
+    
+    
 
 
 
-
-
+#keylisteners
+onkey(delete,"Delete")
 onkey(enter,'Return ')
 onkey(r,"r")
 onkey(o,"o")
