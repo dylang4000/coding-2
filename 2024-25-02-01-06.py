@@ -9,9 +9,7 @@ s=Screen()
 s.setup(900,900)
 #color('red')
 speed(0)
-
-def draw_tiger():
-    
+def Draw_Tiger():
     #bgpic('tiger.png')
     pu()
     goto(-319.7147744339837,348.87854831307874)#top left ear
