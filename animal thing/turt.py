@@ -1,8 +1,12 @@
+#from turtle import *
+#
+#
+#s.setup(900, 900)
+#pensize(4)
+#speed("fastest")
+#color("black")
+#penup()
 
-
-# WARN: DIDN'T SET WORLD COORDINATES
-
-# Silas
 def drawLeftEye(t):
     t.goto(-107.0, -125.0)
     t.pendown()
@@ -38,8 +42,8 @@ def drawHead(t):
     t.goto(-123.0, -259.0)
     t.goto(-70.0, -201.0)
     t.goto(-70.0, -126.0)
-    drawLeftEye(t)
-    t.goto(-69.0, -350.0)
+    drawLeftEye()
+    goto(-69.0, -350.0)
     t.pendown()
     t.goto(1.0, -350.0)
     t.goto(1.0, -301.0)
@@ -59,7 +63,7 @@ def drawHead(t):
     t.goto(126.0, -259.0)
     t.goto(72.0, -201.0)
     t.goto(73.0, -127.0)
-    drawRightEye(t)
+    drawRightEye()
     t.goto(78.0, -349.0)
     t.pendown()
     t.goto(118.0, -330.0)
@@ -118,4 +122,28 @@ def draw_rabbit(t):
     drawMouth(t)
     drawLeftEar(t)
     drawRightEar(t)
+
+
+
+
+
+# code to get coords (UNEEDED!!!)
+
+#def clickprint(x, y):
+#    goto(x, y)
+#    print(f"goto{x, y}")
+#
+#def printPenUp():
+#    print("penup()")
+#    penup()
+#
+#def printPenDown():
+#    print("pendown()")
+#    pendown()
+
+# s.onclick(clickprint)
+# s.onkeypress(printPenUp, "w")
+# s.onkeypress(printPenDown, "s")
+# 
+# s.listen()
 

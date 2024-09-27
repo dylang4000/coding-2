@@ -1,11 +1,20 @@
 import turtle
-from rabbit import draw_rabbit
 from cow import draw_cow
-from giraffe import draw_giraffe
+from crocodile import draw_crocodile
+from deer import draw_deer
 from elephant import draw_elephant
+from giraffe import draw_giraffe
+#from owl import drawShape
+from parrot import draw_parrot
+from rabbit import draw_rabbit
+#from turt import draw_turtle
+
+
+
+
 selector=0
 
-functionsanimals=[draw_rabbit,draw_cow,draw_giraffe,draw_elephant]
+functionsanimals=[draw_parrot,draw_deer,draw_crocodile,draw_cow,draw_rabbit,draw_giraffe,draw_elephant]
 turtle.speed(0)
 
 

@@ -1,9 +1,9 @@
-import turtle as t
+#import turtle as t
 
 #t.bgpic("C:\\Users\\Brandon Mertes\\Desktop\\cornbreads\\coding II\\owl.png")
-
-t.shapesize()
-t.speed(9999)
+#
+#t.shapesize()
+#t.speed(9999)
 animalShapes = {
     'Owl':[
         25,

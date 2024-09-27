@@ -3,208 +3,205 @@
 #       pensize: 4
 # Single Function called "Draw_(Animal Name Here)"
 
-from turtle import*
 
-pensize(4)
-screensize(900, 900)
-speed(15)
+#pensize(4)
+#screensize(900, 900)
+#speed(15)
 #bgpic('C:\\Users\\Landon Russell\\Desktop\\Coding Folders\\Coding II\\Deer.png')
 
-def Draw_Deer():
+def draw_deer(t):
     # Skull
-    penup()
-    goto(0,-100)
-    pendown()
-    forward(30) 
-    left(45)
-    forward(40)
-    left(60)
-    forward(60)
-    right(35)
-    forward(70)
-    right(20)
-    forward(40)
-    right(50)
-    forward(25)
-    left(60)
-    forward(30)
-    right(65)
-    forward(45)
-    left(40)
-    forward(80)
-    left(25)
-    forward(55)
-    left(140)
-    forward(105)
-    left(180)
-    forward(105)
-    left(165)
-    forward(100)
-    left(25)
-    forward(60)
-    right(165)
-    forward(60) #
-    right(40)
-    forward(120)
-    left(25)
-    forward(60)
-    left(60)
-    forward(160)
-    left(170)
-    forward(130)#
-    right(30)
-    forward(55)#
-    right(125)
-    forward(90)
-    left(160)
-    forward(90)
-    right(80)
-    forward(60)
-    right(65)
-    forward(65)#
-    right(35)
-    forward(50)
-    left(160)
-    forward(60)
-    left(55)
-    forward(60)
-    right(115)
-    forward(55)
-    left(60)
-    forward(65)
-    right(65)
-    forward(80)
+    t.penup()
+    t.goto(0,-100)
+    t.pendown()
+    t.forward(30) 
+    t.left(45)
+    t.forward(40)
+    t.left(60)
+    t.forward(60)
+    t.right(35)
+    t.forward(70)
+    t.right(20)
+    t.forward(40)
+    t.right(50)
+    t.forward(25)
+    t.left(60)
+    t.forward(30)
+    t.right(65)
+    t.forward(45)
+    t.left(40)
+    t.forward(80)
+    t.left(25)
+    t.forward(55)
+    t.left(140)
+    t.forward(105)
+    t.left(180)
+    t.forward(105)
+    t.left(165)
+    t.forward(100)
+    t.left(25)
+    t.forward(60)
+    t.right(165)
+    t.forward(60) #
+    t.right(40)
+    t.forward(120)
+    t.left(25)
+    t.forward(60)
+    t.left(60)
+    t.forward(160)
+    t.left(170)
+    t.forward(130)#
+    t.right(30)
+    t.forward(55)#
+    t.right(125)
+    t.forward(90)
+    t.left(160)
+    t.forward(90)
+    t.right(80)
+    t.forward(60)
+    t.right(65)
+    t.forward(65)#
+    t.right(35)
+    t.forward(50)
+    t.left(160)
+    t.forward(60)
+    t.left(55)
+    t.forward(60)
+    t.right(115)
+    t.forward(55)
+    t.left(60)
+    t.forward(65)
+    t.right(65)
+    t.forward(80)
 
-    penup()
-    goto(0,-100)
-    pendown()
-    forward(30) #
-    right(45)
-    forward(40) #
-    right(60)
-    forward(60) #
-    left(35)
-    forward(70) #
-    left(20)
-    forward(40) #
-    left(50)
-    forward(25) #
-    right(60)
-    forward(30) #
-    left(65)
-    forward(45) #
-    right(40)
-    forward(80) #
-    right(25)
-    forward(55) #
-    right(140)
-    forward(105)#
-    right(180)
-    forward(105)#
-    right(165)
-    forward(100)#
-    right(25)
-    forward(60)#
-    left(165)
-    forward(60)#
-    left(40)
-    forward(120)#
-    right(25)
-    forward(60) #
-    right(60)
-    forward(160)#
-    right(170)
-    forward(130)#
-    left(30)
-    forward(55)#
-    left(125)
-    forward(90)#
-    right(160)
-    forward(90)#
-    left(80)
-    forward(60)#
-    left(65)
-    forward(65)#
-    left(35)
-    forward(50)
-    right(160)
-    forward(60)
-    right(55)
-    forward(60)
-    left(115)
-    forward(55)
-    right(60)
-    forward(65)
-    left(65)
-    forward(80)
+    t.penup()
+    t.goto(0,-100)
+    t.pendown()
+    t.forward(30) #
+    t.right(45)
+    t.forward(40) #
+    t.right(60)
+    t.forward(60) #
+    t.left(35)
+    t.forward(70) #
+    t.left(20)
+    t.forward(40) #
+    t.left(50)
+    t.forward(25) #
+    t.right(60)
+    t.forward(30) #
+    t.left(65)
+    t.forward(45) #
+    t.right(40)
+    t.forward(80) #
+    t.right(25)
+    t.forward(55) #
+    t.right(140)
+    t.forward(105)#
+    t.right(180)
+    t.forward(105)#
+    t.right(165)
+    t.forward(100)#
+    t.right(25)
+    t.forward(60)#
+    t.left(165)
+    t.forward(60)#
+    t.left(40)
+    t.forward(120)#
+    t.right(25)
+    t.forward(60) #
+    t.right(60)
+    t.forward(160)#
+    t.right(170)
+    t.forward(130)#
+    t.left(30)
+    t.forward(55)#
+    t.left(125)
+    t.forward(90)#
+    t.right(160)
+    t.forward(90)#
+    t.left(80)
+    t.forward(60)#
+    t.left(65)
+    t.forward(65)#
+    t.left(35)
+    t.forward(50)
+    t.right(160)
+    t.forward(60)
+    t.right(55)
+    t.forward(60)
+    t.left(115)
+    t.forward(55)
+    t.right(60)
+    t.forward(65)
+    t.left(65)
+    t.forward(80)
 
     # Nostrils
-    penup()
-    goto(-40,-55)
-    pendown()
-    right(20)
-    forward(20)
+    t.penup()
+    t.goto(-40,-55)
+    t.pendown()
+    t.right(20)
+    t.forward(20)
 
-    penup()
-    goto(40,-55)
-    right(180)
-    pendown()
-    left(40)
-    forward(20)
+    t.penup()
+    t.goto(40,-55)
+    t.right(180)
+    t.pendown()
+    t.left(40)
+    t.forward(20)
 
     # Eyes
-    penup()
-    goto(-117, 85)
-    pendown()
-    left(100)
-    forward(30)
-    left(63)
-    forward(27)
+    t.penup()
+    t.goto(-117, 85)
+    t.pendown()
+    t.left(100)
+    t.forward(30)
+    t.left(63)
+    t.forward(27)
 
-    penup()
-    goto(117, 85)
-    pendown()
-    right(120)
-    forward(30)
-    right(65)
-    forward(30)
+    t.penup()
+    t.goto(117, 85)
+    t.pendown()
+    t.right(120)
+    t.forward(30)
+    t.right(65)
+    t.forward(30)
 
     # Jawline
-    penup()
-    goto(-117,85)
-    pendown()
-    left(105)
-    forward(130)
-    left(50)
-    forward(38)
+    t.penup()
+    t.goto(-117,85)
+    t.pendown()
+    t.left(105)
+    t.forward(130)
+    t.left(50)
+    t.forward(38)
 
-    penup()
-    goto(117,85)
-    pendown()
-    right(75)
-    forward(130)
-    right(50)
-    forward(40)
+    t.penup()
+    t.goto(117,85)
+    t.pendown()
+    t.right(75)
+    t.forward(130)
+    t.right(50)
+    t.forward(40)
 
     # Mouth
-    penup()
-    goto(-25,-100)
-    pendown()
-    left(90)
-    forward(30)
-    left(65)
-    forward(15)
+    t.penup()
+    t.goto(-25,-100)
+    t.pendown()
+    t.left(90)
+    t.forward(30)
+    t.left(65)
+    t.forward(15)
 
-    penup()
-    goto(25,-100)
-    pendown()
-    right(120)
-    forward(30)
-    right(65)
-    forward(15)
+    t.penup()
+    t.goto(25,-100)
+    t.pendown()
+    t.right(120)
+    t.forward(30)
+    t.right(65)
+    t.forward(15)
     
     
 
-Draw_Deer()
 
-mainloop()
