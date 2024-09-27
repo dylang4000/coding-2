@@ -20,9 +20,16 @@ def select():
     turtle.home()
     turtle.clear()
     functionsanimals[selector](turtle)
-    
+def negativeselect():
+    print('asdfasdf')
+    global selector
+    selector-=1
+    turtle.home()
+    turtle.clear()
+    functionsanimals[selector](turtle)  
 
 
 turtle.onkeypress(select,'a')
+turtle.onkeypress(negativeselect,'d')
 turtle.listen()
 turtle.mainloop()
