@@ -16,7 +16,7 @@ selector=0
 
 functionsanimals=[draw_parrot,draw_deer,draw_crocodile,draw_cow,draw_rabbit,draw_giraffe,draw_elephant]
 turtle.speed(0)
-
+turtle.tracer(2)
 
 turtle.width(4)
 
@@ -26,19 +26,25 @@ def select():
     print('asdfasdf')
     global selector
     selector+=1
+    if selector>6:
+        selector=0
     turtle.home()
     turtle.clear()
+    print(selector)
     functionsanimals[selector](turtle)
 def negativeselect():
-    print('asdfasdf')
+    
     global selector
     selector-=1
+    if selector<-6:
+        selector=6
     turtle.home()
     turtle.clear()
+    print(selector)
     functionsanimals[selector](turtle)  
 
 
-turtle.onkeypress(select,'a')
-turtle.onkeypress(negativeselect,'d')
+turtle.onkeypress(select,'d')
+turtle.onkeypress(negativeselect,'a')
 turtle.listen()
 turtle.mainloop()
