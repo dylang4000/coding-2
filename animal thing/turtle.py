@@ -1,8 +1,12 @@
 from turtle import *
+s = Screen()
 
-# WARN: DIDN'T SET WORLD COORDINATES
+s.setup(900, 900)
+pensize(4)
+speed("fastest")
+color("black")
+penup()
 
-# Silas
 def drawLeftEye():
     goto(-107.0, -125.0)
     pendown()
@@ -120,3 +124,29 @@ def draw_rabbit():
     drawRightEar()
 
 draw_rabbit()
+
+
+
+# code to get coords (UNEEDED!!!)
+
+def clickprint(x, y):
+    goto(x, y)
+    print(f"goto{x, y}")
+
+def printPenUp():
+    print("penup()")
+    penup()
+
+def printPenDown():
+    print("pendown()")
+    pendown()
+
+# s.onclick(clickprint)
+# s.onkeypress(printPenUp, "w")
+# s.onkeypress(printPenDown, "s")
+# 
+# s.listen()
+
+hideturtle()
+while True:
+    forward(0)
