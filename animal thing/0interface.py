@@ -14,10 +14,9 @@ from rabbit import draw_rabbit
 
 selector=0
 
-functionsanimals=[draw_parrot,draw_deer,draw_crocodile,draw_cow,draw_rabbit,draw_giraffe,draw_elephant]
+functionsanimals=[draw_cow, draw_crocodile,draw_deer,draw_elephant,draw_giraffe,draw_parrot,draw_rabbit,]
 turtle.speed(0)
 turtle.tracer(2)
-
 turtle.width(4)
 
 
