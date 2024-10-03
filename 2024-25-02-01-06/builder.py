@@ -4,7 +4,7 @@ turtle.setup(900,900)
 turtle.setworldcoordinates(0, 900, 900, 0)
 turtle.hideturtle()
 turtle.speed(0)
-def makerect(x,y,width,height):
+def makerect(width,height,x,y):
     turtle.pu()
     turtle.goto(x,y)
     turtle.pd()
