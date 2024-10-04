@@ -9,10 +9,10 @@ sc=Screen()
 sc.setup(900,900)
 color('red')
 
-def Draw_Tiger():
-    bgpic('tiger.png')
+
+bgpic('head_06.png')
     
-Draw_Tiger()
+
 penup()
 def w():
     forward(5)
