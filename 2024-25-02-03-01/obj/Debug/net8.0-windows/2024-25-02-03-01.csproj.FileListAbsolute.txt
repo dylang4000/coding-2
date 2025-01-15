@@ -1,0 +1,16 @@
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\bin\Debug\net8.0-windows\2024-25-02-03-01.exe
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\bin\Debug\net8.0-windows\2024-25-02-03-01.deps.json
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\bin\Debug\net8.0-windows\2024-25-02-03-01.runtimeconfig.json
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\bin\Debug\net8.0-windows\2024-25-02-03-01.dll
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\bin\Debug\net8.0-windows\2024-25-02-03-01.pdb
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\_2024_25_02_03_01.Form1.resources
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.csproj.GenerateResource.cache
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.AssemblyInfoInputs.cache
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.AssemblyInfo.cs
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.csproj.CoreCompileInputs.cache
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.dll
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\refint\2024-25-02-03-01.dll
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.pdb
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\2024-25-02-03-01.genruntimeconfig.cache
+C:\Users\Dylan Davis\source\repos\2024-25-02-03-01\obj\Debug\net8.0-windows\ref\2024-25-02-03-01.dll
